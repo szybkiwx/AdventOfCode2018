@@ -1,0 +1,10 @@
+C:\Users\cy264\RiderProjects\AoC2018\Day02\Day02\bin\Debug\netcoreapp2.1\Day02.deps.json
+C:\Users\cy264\RiderProjects\AoC2018\Day02\Day02\bin\Debug\netcoreapp2.1\Day02.runtimeconfig.json
+C:\Users\cy264\RiderProjects\AoC2018\Day02\Day02\bin\Debug\netcoreapp2.1\Day02.runtimeconfig.dev.json
+C:\Users\cy264\RiderProjects\AoC2018\Day02\Day02\bin\Debug\netcoreapp2.1\Day02.dll
+C:\Users\cy264\RiderProjects\AoC2018\Day02\Day02\bin\Debug\netcoreapp2.1\Day02.pdb
+C:\Users\cy264\RiderProjects\AoC2018\Day02\Day02\obj\Debug\netcoreapp2.1\Day02.fsprojAssemblyReference.cache
+C:\Users\cy264\RiderProjects\AoC2018\Day02\Day02\obj\Debug\netcoreapp2.1\Day02.AssemblyInfoInputs.cache
+C:\Users\cy264\RiderProjects\AoC2018\Day02\Day02\obj\Debug\netcoreapp2.1\Day02.AssemblyInfo.fs
+C:\Users\cy264\RiderProjects\AoC2018\Day02\Day02\obj\Debug\netcoreapp2.1\Day02.dll
+C:\Users\cy264\RiderProjects\AoC2018\Day02\Day02\obj\Debug\netcoreapp2.1\Day02.pdb

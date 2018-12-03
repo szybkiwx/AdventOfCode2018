@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\cy264\.Rider2018.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\cy264\.Rider2018.2\system\resharper-host\local\Transient\ReSharperHost\v182\SolutionCaches\_Day02.714892277.00" t="ExcludeRecursive" />
+    <e p="C:\Users\cy264\RiderProjects\AoC2018\Day02" t="IncludeFlat">
+      <e p="Day02" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Day02.fsproj" t="IncludeRecursive" />
+        <e p="input.txt" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Program.fs" t="Include" />
+      </e>
+      <e p="Day02.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
