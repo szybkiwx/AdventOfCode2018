@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a153b045-e408-4f67-8ace-ea7c3fcd5f4b" name="Default Changelist" comment="" />
+    <list default="true" id="a153b045-e408-4f67-8ace-ea7c3fcd5f4b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Day03/.idea/.idea.Day03/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day04/.idea/.idea.Day04/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day04/.idea/.idea.Day04/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day04/.idea/.idea.Day04/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day04/.idea/.idea.Day04/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day04/.idea/.idea.Day04/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day04/.idea/.idea.Day04/riderModule.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day04/Day04/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day02/.idea/.idea.Day02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Day02/.idea/.idea.Day02/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day03/.idea/.idea.Day03/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Day03/.idea/.idea.Day03/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day03/Day03/Program.fs" beforeDir="false" afterPath="$PROJECT_DIR$/../Day03/Day03/Program.fs" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,10 +24,11 @@
     <session id="-244385021">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.54" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -54,8 +67,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Day01/Program.fs">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="27" />
+            <state relative-caret-position="165">
+              <caret line="11" selection-start-line="11" selection-end-line="17" selection-end-column="18" />
               <folding>
                 <marker date="1543705479318" expanded="true" signature="0:676" ph="open System ..." />
                 <marker date="1543705479318" expanded="true" signature="59:171" ph=" = seq { ..." />
@@ -103,6 +116,9 @@
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/../../AoC/Day 1/day01/Program.fs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../AoC/Day02/Day02/Program.fs" root0="FORCE_HIGHLIGHTING" />
@@ -128,11 +144,13 @@
     <option name="width" value="2580" />
     <option name="height" value="1051" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="SolutionExplorer" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="FileSystemExplorer" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -150,7 +168,6 @@
         </subPane>
         <option name="show-all-files" value="false" />
       </pane>
-      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -208,11 +225,12 @@
       <updated>1543665255685</updated>
       <workItem from="1543665260500" duration="6550000" />
       <workItem from="1543742750863" duration="1900000" />
+      <workItem from="1543927865363" duration="674000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8450000" />
+    <option name="totallyTimeSpent" value="9124000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -225,9 +243,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="0" width="2580" height="1051" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49722221" visible="true" weight="0.12420635" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49722221" visible="true" weight="0.125" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50277776" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -320,8 +337,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Day01/Program.fs">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="27" />
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="17" selection-end-column="18" />
           <folding>
             <marker date="1543705479318" expanded="true" signature="0:676" ph="open System ..." />
             <marker date="1543705479318" expanded="true" signature="59:171" ph=" = seq { ..." />

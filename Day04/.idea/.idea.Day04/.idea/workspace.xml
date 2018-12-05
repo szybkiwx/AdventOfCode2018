@@ -1,0 +1,1049 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a6b53865-1528-49ec-8f48-b3ad29b444b4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Day03/.idea/.idea.Day03/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Day04/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Day04/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Day04/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Day04/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Day04/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Day04/riderModule.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day04/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day05/.idea/.idea.day05/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day05/.idea/.idea.day05/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day05/day05/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day01/.idea/.idea.Day01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Day01/.idea/.idea.Day01/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day02/.idea/.idea.Day02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Day02/.idea/.idea.Day02/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day03/.idea/.idea.Day03/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Day03/.idea/.idea.Day03/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day03/Day03/Program.fs" beforeDir="false" afterPath="$PROJECT_DIR$/../Day03/Day03/Program.fs" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-833925494">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="cs" value="5" />
+          <entry key="fs" value="1" />
+          <entry key="txt" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="C#" value="5" />
+          <entry key="F#" value="1" />
+          <entry key="PLAIN_TEXT" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="fs" value="2536" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="F#" value="2536" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Day04/Program.fs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="318">
+              <caret line="87" selection-start-line="87" selection-end-line="87" />
+              <folding>
+                <marker date="1543994346789" expanded="true" signature="0:3404" ph="open System ..." />
+                <marker date="1543994346789" expanded="true" signature="107:219" ph=" = seq { ..." />
+                <marker date="1543994346789" expanded="true" signature="161:217" ph="while not sr.EndOfStream do ..." />
+                <marker date="1543994346789" expanded="true" signature="248:355" ph=" = ..." />
+                <marker date="1543994346789" expanded="true" signature="322:355" ph=" then Some(intvalue) ..." />
+                <marker date="1543994346789" expanded="true" signature="387:511" ph=" = ..." />
+                <marker date="1543994346789" expanded="true" signature="440:511" ph=" ..." />
+                <marker date="1543994346789" expanded="true" signature="527:1111" ph=" = ..." />
+                <marker date="1543994346789" expanded="true" signature="642:1071" ph=" = ..." />
+                <marker date="1543994346789" expanded="true" signature="673:1071" ph=" ..." />
+                <marker date="1543994346789" expanded="true" signature="703:1040" ph=" -&gt; match currentLine with ..." />
+                <marker date="1543994346789" expanded="true" signature="874:1040" ph=" -&gt; ..." />
+                <marker date="1543994346789" expanded="true" signature="1130:1267" ph=" = ..." />
+                <marker date="1543994346789" expanded="true" signature="1292:2455" ph=" = ..." />
+                <marker date="1543994346789" expanded="true" signature="1471:2336" ph="  = ..." />
+                <marker date="1543994346789" expanded="true" signature="1504:2336" ph=" ..." />
+                <marker date="1543994346789" expanded="true" signature="1530:2260" ph=" -&gt;  let dt, s = current ..." />
+                <marker date="1543994346789" expanded="true" signature="1597:2260" ph=" ..." />
+                <marker date="1543994346789" expanded="true" signature="1677:2032" ph=" -&gt; ..." />
+                <marker date="1543994346789" expanded="true" signature="2500:3081" ph=" = ..." />
+                <marker date="1543994346789" expanded="true" signature="2558:2672" ph=" = ..." />
+                <marker date="1543994346789" expanded="true" signature="2703:2795" ph=" = ..." />
+                <marker date="1543994346789" expanded="true" signature="2828:3050" ph=" = ..." />
+                <marker date="1543994346789" expanded="true" signature="2840:2986" ph="   for i in 0..59 do ..." />
+                <marker date="1543994346789" expanded="true" signature="2873:2986" ph="for s, e in napTimes.[laziestId] do ..." />
+                <marker date="1543994346789" expanded="true" signature="2957:2986" ph=" ..." />
+                <marker date="1543994346789" expanded="true" signature="3128:3372" ph=" = ..." />
+                <marker date="1543994346789" expanded="true" signature="3172:3372" ph="for i in 0..59 do ..." />
+                <marker date="1543994346789" expanded="true" signature="3194:3247" ph="for guard, naps in napTimes do ..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day04/input.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="307" column="30" selection-start-line="307" selection-start-column="25" selection-end-line="307" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5B5A6DC5-904C-F4DA-A745-0383C56D5A5B/50/4aa7359b/Operators.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="171" column="20" selection-start-line="171" selection-start-column="20" selection-end-line="171" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5B5A6DC5-904C-F4DA-A745-0383C56D5A5B/03/53ee7e9b/MapModule.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="185" column="43" selection-start-line="185" selection-start-column="43" selection-end-line="185" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5B5A6DC5-904C-F4DA-A745-0383C56D5A5B/29/a7353543/ListModule.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="356">
+              <caret line="1568" column="32" selection-start-line="1568" selection-start-column="32" selection-end-line="1568" selection-end-column="32" />
+              <folding>
+                <marker date="1543931468433" expanded="true" signature="0:332" ph="/* Decompiled with JetBrains decompiler ... */" />
+                <marker date="1543931468433" expanded="false" signature="340:542" ph="..." />
+                <marker date="1543931468433" expanded="true" signature="582:104284" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="823:104282" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="832:988" ph="///Returns the length of the list. ... " />
+                <marker date="1543931468433" expanded="true" signature="1078:1116" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="1122:1403" ph="///Returns the last element of the list. ... " />
+                <marker date="1543931468433" expanded="true" signature="1487:1819" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="1581:1700" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="1825:2055" ph="///Returns the last element of the list. ... " />
+                <marker date="1543931468433" expanded="true" signature="2159:2437" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="2253:2394" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="2443:2617" ph="///Returns a new list with the elements in reverse order. ... " />
+                <marker date="1543931468433" expanded="true" signature="2715:2759" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="2765:2986" ph="///Returns a new list that contains the elements of each the lists in order. ... " />
+                <marker date="1543931468433" expanded="true" signature="3100:3148" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="3311:3816" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="3352:3810" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="3994:4331" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="4559:5269" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="4600:5263" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="5445:6278" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="6284:6710" ph="///Applies a key-generating function to each element of a list and returns a list yielding unique ... " />
+                <marker date="1543931468433" expanded="true" signature="6915:7116" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="7122:7487" ph="///Builds a new collection whose elements are the results of applying the given function ... " />
+                <marker date="1543931468433" expanded="true" signature="7678:7740" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="7746:8217" ph="///Builds a new collection whose elements are the results of applying the given function ... " />
+                <marker date="1543931468433" expanded="true" signature="8433:8496" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="8502:8771" ph="///Returns a new list whose elements are the corresponding elements ... " />
+                <marker date="1543931468433" expanded="true" signature="8885:8933" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="8939:9495" ph="///Combines map and fold. Builds a new list whose elements are the results of applying the given function ... " />
+                <marker date="1543931468433" expanded="true" signature="9769:9850" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="10074:10794" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="10112:10770" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="10800:11360" ph="///Combines map and foldBack. Builds a new list whose elements are the results of applying the given function ... " />
+                <marker date="1543931468433" expanded="true" signature="11642:12411" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="11851:12160" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="12417:12644" ph="///Applies the given function to each element of the collection. ... " />
+                <marker date="1543931468433" expanded="true" signature="12812:12858" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="12864:13204" ph="///Returns a list that contains no duplicate entries according to generic hash and ... " />
+                <marker date="1543931468433" expanded="true" signature="13308:13431" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="13437:13926" ph="///Returns a list that contains no duplicate entries according to the ... " />
+                <marker date="1543931468433" expanded="true" signature="14122:14268" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="14274:14449" ph="///Builds a list from the given array. ... " />
+                <marker date="1543931468433" expanded="true" signature="14542:14591" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="14597:14781" ph="///Builds an array from the given list. ... " />
+                <marker date="1543931468433" expanded="true" signature="14873:14921" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="15095:15147" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="15153:15417" ph="///Returns the first element of the list. ... " />
+                <marker date="1543931468433" expanded="true" signature="15501:15681" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="15687:15910" ph="///Returns the first element of the list, or ... " />
+                <marker date="1543931468433" expanded="true" signature="16014:16140" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="16146:16434" ph="///Returns the list after removing the first element. ... " />
+                <marker date="1543931468433" expanded="true" signature="16530:16710" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="16716:16907" ph="///Returns true if the list contains no elements, false otherwise. ... " />
+                <marker date="1543931468433" expanded="true" signature="17000:17044" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="17050:17344" ph="///Returns a new list that contains the elements of the first list ... " />
+                <marker date="1543931468433" expanded="true" signature="17516:17579" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="17585:17977" ph="///Indexes into the list. The first element has index 0. ... " />
+                <marker date="1543931468433" expanded="true" signature="18122:18671" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="18160:18552" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="18280:18514" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="18677:19019" ph="///Tries to find the nth element in the list. ... " />
+                <marker date="1543931468433" expanded="true" signature="19184:19679" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="19222:19636" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="19342:19598" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="19685:20077" ph="///Indexes into the list. The first element has index 0. ... " />
+                <marker date="1543931468433" expanded="true" signature="20259:20317" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="20323:20755" ph="///Applies the given function to each element of the list. Returns ... " />
+                <marker date="1543931468433" expanded="true" signature="20966:21031" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="21037:21429" ph="///Splits a list into two lists, at the given index. ... " />
+                <marker date="1543931468433" expanded="true" signature="21614:21669" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="21675:22378" ph="///Returns the first N elements of the list. ... " />
+                <marker date="1543931468433" expanded="true" signature="22535:22587" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="22593:22973" ph="///Returns a list that contains all elements of the original list while the ... " />
+                <marker date="1543931468433" expanded="true" signature="23160:23221" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="23227:23548" ph="///Applies the given function to each element of the collection. The integer passed to the ... " />
+                <marker date="1543931468433" expanded="true" signature="23741:23788" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="23794:24102" ph="///Creates a list by calling the given generator on each index. ... " />
+                <marker date="1543931468433" expanded="true" signature="24278:24338" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="24473:24658" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="24523:24634" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="24664:24922" ph="///Creates a list by replicating the given initial value. ... " />
+                <marker date="1543931468433" expanded="true" signature="25080:25318" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="25464:26340" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="25503:26180" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="25587:25737" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="26346:26699" ph="///Applies the given function to two collections simultaneously. The ... " />
+                <marker date="1543931468433" expanded="true" signature="26918:27050" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="27208:28134" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="27247:27974" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="27331:27481" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="28140:28592" ph="///Applies the given function to two collections simultaneously. The ... " />
+                <marker date="1543931468433" expanded="true" signature="28836:28976" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="28982:29511" ph="///Builds a new collection whose elements are the results of applying the given function ... " />
+                <marker date="1543931468433" expanded="true" signature="29798:29885" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="29891:30287" ph="///Like mapi, but mapping corresponding elements from two lists of equal length. ... " />
+                <marker date="1543931468433" expanded="true" signature="30554:30631" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="30637:31098" ph="///Builds a new collection whose elements are the results of applying the given function ... " />
+                <marker date="1543931468433" expanded="true" signature="31340:31416" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="31422:32164" ph="///Applies a function to each element of the collection, threading an accumulator argument ... " />
+                <marker date="1543931468433" expanded="true" signature="32378:32874" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="32720:32847" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="32880:33180" ph="///Returns a list of each element in the input list and its predecessor, with the ... " />
+                <marker date="1543931468433" expanded="true" signature="33294:33343" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="33349:34186" ph="///Apply a function to each element of the collection, threading an accumulator argument ... " />
+                <marker date="1543931468433" expanded="true" signature="34367:34643" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="34649:35291" ph="///Applies a function to each element of the collection, threading an accumulator argument ... " />
+                <marker date="1543931468433" expanded="true" signature="35517:35585" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="35591:35765" ph="///Returns a list that contains one item only. ... " />
+                <marker date="1543931468433" expanded="true" signature="35860:35939" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="36117:37028" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="36156:36855" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="37034:37705" ph="///Applies a function to corresponding elements of two collections, threading an accumulator argument ... " />
+                <marker date="1543931468433" expanded="true" signature="37970:38134" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="38317:38571" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="38410:38549" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="38577:39175" ph="///Applies a function to each element of the collection, starting from the end, threading an accumulator argument ... " />
+                <marker date="1543931468433" expanded="true" signature="39397:40790" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="39654:40716" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="39746:40587" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="39839:40401" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="39938:40211" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="40796:41477" ph="///Applies a function to each element of the collection, starting from the end, threading an accumulator argument ... " />
+                <marker date="1543931468433" expanded="true" signature="41666:42093" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="42319:42745" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="42521:42720" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="42751:43096" ph="///Like &lt;c&gt;foldBack&lt;/c&gt;, but returns both the intermediary and final results ... " />
+                <marker date="1543931468433" expanded="true" signature="43330:44027" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="43523:43740" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="44229:44997" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="44541:44708" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="44818:44975" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="45291:47773" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="45458:47538" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="45553:47208" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="45653:46618" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="45775:46606" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="45888:46592" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="46006:46576" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="46124:46558" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="46657:47198" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="46764:47186" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="46876:47172" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="47245:47530" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="47346:47520" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="47779:48446" ph="///Applies a function to corresponding elements of two collections, threading an accumulator argument ... " />
+                <marker date="1543931468433" expanded="true" signature="48719:49501" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="48755:49326" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="49683:50560" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="49722:50388" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="50566:51505" ph="///Tests if all corresponding elements of the collection satisfy the given predicate pairwise. ... " />
+                <marker date="1543931468433" expanded="true" signature="51728:51932" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="51938:52473" ph="///Tests if all elements of the collection satisfy the given predicate. ... " />
+                <marker date="1543931468433" expanded="true" signature="52645:52703" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="52709:53232" ph="///Tests if any element of the list satisfies the given predicate. ... " />
+                <marker date="1543931468433" expanded="true" signature="53404:53462" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="53468:53767" ph="///Tests if the list contains the specified element. ... " />
+                <marker date="1543931468433" expanded="true" signature="53923:54269" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="54451:55353" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="54490:55116" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="54573:55071" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="55359:56286" ph="///Tests if any pair of corresponding elements of the lists satisfies the given predicate. ... " />
+                <marker date="1543931468433" expanded="true" signature="56509:56714" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="56720:57259" ph="///Returns the first element for which the given function returns True. ... " />
+                <marker date="1543931468433" expanded="true" signature="57424:57867" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="57462:57763" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="57873:58279" ph="///Returns the first element for which the given function returns True. ... " />
+                <marker date="1543931468433" expanded="true" signature="58464:58868" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="58502:58825" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="58874:59411" ph="///Returns the last element for which the given function returns True. ... " />
+                <marker date="1543931468433" expanded="true" signature="59584:59697" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="59703:60107" ph="///Returns the last element for which the given function returns True. ... " />
+                <marker date="1543931468433" expanded="true" signature="60300:60416" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="60422:60857" ph="///Applies the given function to successive elements, returning &lt;c&gt;Some(x)&lt;/c&gt; the first ... " />
+                <marker date="1543931468433" expanded="true" signature="61072:61546" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="61110:61497" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="61552:62122" ph="///Applies the given function to successive elements, returning the first ... " />
+                <marker date="1543931468433" expanded="true" signature="62317:62852" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="62355:62748" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="62858:63228" ph="///Returns a new collection containing only the elements of the collection ... " />
+                <marker date="1543931468433" expanded="true" signature="63409:63467" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="63473:64196" ph="///Returns a new list with the distinct elements of the input list which do not appear in the itemsToExclude sequ ... " />
+                <marker date="1543931468433" expanded="true" signature="64377:64741" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="64747:65105" ph="///Returns a new list containing only the elements of the list ... " />
+                <marker date="1543931468433" expanded="true" signature="65284:65342" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="65524:65737" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="65917:66416" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="66422:66835" ph="///Applies a key-generating function to each element of a list and yields a list of ... " />
+                <marker date="1543931468433" expanded="true" signature="67050:67251" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="67257:67806" ph="///Splits the collection into two collections, containing the ... " />
+                <marker date="1543931468433" expanded="true" signature="68015:68076" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="68082:68250" ph="///Splits a list of pairs into two lists. ... " />
+                <marker date="1543931468433" expanded="true" signature="68389:68440" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="68446:68620" ph="///Splits a list of triples into three lists. ... " />
+                <marker date="1543931468433" expanded="true" signature="68785:68841" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="68847:69277" ph="///Returns a list of sliding windows containing elements drawn from the input ... " />
+                <marker date="1543931468433" expanded="true" signature="69459:69520" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="69526:69906" ph="///Divides the input list into chunks of size at most &lt;c&gt;chunkSize&lt;/c&gt;. ... " />
+                <marker date="1543931468433" expanded="true" signature="70093:70156" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="70162:70517" ph="///Splits the input list into at most &lt;c&gt;count&lt;/c&gt; chunks. ... " />
+                <marker date="1543931468433" expanded="true" signature="70696:70753" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="70759:71083" ph="///Combines the two lists into a list of pairs. The two lists must have equal lengths. ... " />
+                <marker date="1543931468433" expanded="true" signature="71268:71325" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="71331:71715" ph="///Combines the three lists into a list of triples. The lists must have equal lengths. ... " />
+                <marker date="1543931468433" expanded="true" signature="71935:72004" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="72101:72486" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="72128:72462" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="72492:72908" ph="///Returns the list after removing the first N elements. ... " />
+                <marker date="1543931468433" expanded="true" signature="73065:73190" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="73196:73551" ph="///Bypasses elements in a list while the given predicate returns True, and then returns ... " />
+                <marker date="1543931468433" expanded="true" signature="73738:74199" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="73776:74174" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="73919:74136" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="74205:74568" ph="///Sorts the given list using the given comparison function. ... " />
+                <marker date="1543931468433" expanded="true" signature="74766:75022" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="75028:75472" ph="///Sorts the given list using keys given by the given projection. Keys are compared using Operators.compare. ... " />
+                <marker date="1543931468433" expanded="true" signature="75660:75922" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="75928:76197" ph="///Sorts the given list using Operators.compare. ... " />
+                <marker date="1543931468433" expanded="true" signature="76293:76535" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="76541:77005" ph="///Sorts the given list in descending order using keys given by the given projection. Keys are compared using Ope ... " />
+                <marker date="1543931468433" expanded="true" signature="77213:77374" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="77380:77669" ph="///Sorts the given list in descending order using Operators.compare. ... " />
+                <marker date="1543931468433" expanded="true" signature="77785:77928" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="77934:78132" ph="///Builds a new list from the given enumerable object. ... " />
+                <marker date="1543931468433" expanded="true" signature="78233:78287" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="78293:78467" ph="///Views the given list as a sequence. ... " />
+                <marker date="1543931468433" expanded="true" signature="78566:78614" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="78723:79208" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="78762:79104" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="79214:79769" ph="///Returns the index of the first element in the list ... " />
+                <marker date="1543931468433" expanded="true" signature="79946:80028" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="80151:80601" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="80190:80556" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="80607:81059" ph="///Returns the index of the first element in the list ... " />
+                <marker date="1543931468433" expanded="true" signature="81256:81338" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="81344:81897" ph="///Returns the index of the last element in the list ... " />
+                <marker date="1543931468433" expanded="true" signature="82082:82200" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="82206:82656" ph="///Returns the index of the last element in the list ... " />
+                <marker date="1543931468433" expanded="true" signature="82861:82982" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="82988:83152" ph="///Returns the sum of the elements in the list. ... " />
+                <marker date="1543931468433" expanded="true" signature="83234:83682" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="83510:83660" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="83688:84015" ph="///Returns the sum of the results generated by applying the function to each element of the list. ... " />
+                <marker date="1543931468433" expanded="true" signature="84201:84704" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="84495:84682" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="84710:85092" ph="///Return the greatest of all elements of the list, compared via Operators.max. ... " />
+                <marker date="1543931468433" expanded="true" signature="85174:85799" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="85570:85775" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="85805:86327" ph="///Returns the greatest of all elements of the list, compared via Operators.max on the function result. ... " />
+                <marker date="1543931468433" expanded="true" signature="86507:87306" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="86975:87282" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="87180:87245" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="87312:87691" ph="///Returns the lowest of all elements of the list, compared via Operators.min. ... " />
+                <marker date="1543931468433" expanded="true" signature="87773:88395" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="88169:88371" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="88401:88914" ph="///Returns the lowest of all elements of the list, compared via Operators.min on the function result ... " />
+                <marker date="1543931468433" expanded="true" signature="89094:89890" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="89562:89866" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="89764:89829" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="89896:90253" ph="///Returns the average of the elements in the list. ... " />
+                <marker date="1543931468433" expanded="true" signature="90343:90912" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="90682:90845" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="90918:91441" ph="///Returns the average of the elements generated by applying the function to each element of the list. ... " />
+                <marker date="1543931468433" expanded="true" signature="91635:92259" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="91986:92186" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="92265:92647" ph="///For each element of the list, applies the given function. Concatenates all the results and return the combined ... " />
+                <marker date="1543931468433" expanded="true" signature="92858:92924" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="92930:93216" ph="///Returns a new list that contains all pairings of elements from the first and second lists. ... " />
+                <marker date="1543931468433" expanded="true" signature="93411:93473" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="93479:94355" ph="///Compares two lists using the given comparison function, element by element. ... " />
+                <marker date="1543931468433" expanded="true" signature="94574:94782" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="94788:95211" ph="///Returns a list with all elements permuted according to the ... " />
+                <marker date="1543931468433" expanded="true" signature="95394:95522" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="95528:95818" ph="///Returns the only element of the list. ... " />
+                <marker date="1543931468433" expanded="true" signature="95914:96282" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="96288:96692" ph="///Returns the transpose of the given sequence of lists. ... " />
+                <marker date="1543931468433" expanded="true" signature="96824:96999" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="97005:97240" ph="///Returns at most N elements in a new list. ... " />
+                <marker date="1543931468433" expanded="true" signature="97405:97461" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="97467:97933" ph="///Returns a list that contains the elements generated by the given computation. ... " />
+                <marker date="1543931468433" expanded="true" signature="98147:98214" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="98323:98531" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="98432:98448" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="98491:98525" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="98703:98982" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="98810:98826" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="98935:98976" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="99063:99418" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="99212:99228" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="99328:99412" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="99541:100402" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="99839:99891" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="99950:100396" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="100054:100366" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="100496:100797" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="100646:100692" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="100736:100791" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="100907:101116" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="101017:101033" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="101076:101110" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="101289:101741" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="101461:101503" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="101608:101735" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="101914:102194" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="102022:102038" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="102147:102188" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="102324:102764" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="102510:102564" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="102608:102758" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="102886:103159" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="102994:103010" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="103054:103153" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="103296:104278" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="103495:103545" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="103621:104272" ph="{...}" />
+                <marker date="1543931468433" expanded="true" signature="103720:104220" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>guard #1</find>
+      <find>2969</find>
+      <find>1518-08-02</find>
+      <find>103</find>
+      <find>1518-02-11</find>
+      <find>#103</find>
+      <find>#103</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5B5A6DC5-904C-F4DA-A745-0383C56D5A5B/03/53ee7e9b/MapModule.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5B5A6DC5-904C-F4DA-A745-0383C56D5A5B/cd/efac57fa/FSharpFunc`2.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5B5A6DC5-904C-F4DA-A745-0383C56D5A5B/50/4aa7359b/Operators.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Day04/Program.fs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5B5A6DC5-904C-F4DA-A745-0383C56D5A5B/29/a7353543/ListModule.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Day04/input.txt" />
+        <option value="$PROJECT_DIR$/Day04/Program.fs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-22" />
+    <option name="width" value="2580" />
+    <option name="height" value="1460" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Day04" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Day04" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Day04" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="FileSystemExplorer" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Day04/bin/Debug/netcoreapp2.1/Day04.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day04" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <envs>
+        <env name="ASPNETCORE_ENVIRONMENT" value="Development" />
+        <env name="ASPNETCORE_URLS" value="http://localhost:5000" />
+      </envs>
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Day04/Day04.fsproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v2.1" />
+      <browser url="http://localhost:5000" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a6b53865-1528-49ec-8f48-b3ad29b444b4" name="Default Changelist" comment="" />
+      <created>1543917616426</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1543917616426</updated>
+      <workItem from="1543917618697" duration="19684000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="19684000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-6" y="-6" width="1293" height="693" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13360325" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="NuGet" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unit Tests" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Build" weight="0.3291815" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3291815" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.24733096" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Errors In Solution" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Unit Tests Coverage" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Day04/Program.fs</url>
+          <line>94</line>
+          <properties documentPath="$PROJECT_DIR$/Day04/Program.fs" initialLine="102">
+            <startOffsets>
+              <option value="3371" />
+            </startOffsets>
+            <endOffsets>
+              <option value="3372" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5B5A6DC5-904C-F4DA-A745-0383C56D5A5B/cd/efac57fa/FSharpFunc`2.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="52" column="8" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5B5A6DC5-904C-F4DA-A745-0383C56D5A5B/03/53ee7e9b/MapModule.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="185" column="43" selection-start-line="185" selection-start-column="43" selection-end-line="185" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5B5A6DC5-904C-F4DA-A745-0383C56D5A5B/50/4aa7359b/Operators.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="171" column="20" selection-start-line="171" selection-start-column="20" selection-end-line="171" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5B5A6DC5-904C-F4DA-A745-0383C56D5A5B/29/a7353543/ListModule.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="1568" column="32" selection-start-line="1568" selection-start-column="32" selection-end-line="1568" selection-end-column="32" />
+          <folding>
+            <marker date="1543931468433" expanded="true" signature="0:332" ph="/* Decompiled with JetBrains decompiler ... */" />
+            <marker date="1543931468433" expanded="false" signature="340:542" ph="..." />
+            <marker date="1543931468433" expanded="true" signature="582:104284" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="823:104282" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="832:988" ph="///Returns the length of the list. ... " />
+            <marker date="1543931468433" expanded="true" signature="1078:1116" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="1122:1403" ph="///Returns the last element of the list. ... " />
+            <marker date="1543931468433" expanded="true" signature="1487:1819" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="1581:1700" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="1825:2055" ph="///Returns the last element of the list. ... " />
+            <marker date="1543931468433" expanded="true" signature="2159:2437" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="2253:2394" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="2443:2617" ph="///Returns a new list with the elements in reverse order. ... " />
+            <marker date="1543931468433" expanded="true" signature="2715:2759" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="2765:2986" ph="///Returns a new list that contains the elements of each the lists in order. ... " />
+            <marker date="1543931468433" expanded="true" signature="3100:3148" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="3311:3816" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="3352:3810" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="3994:4331" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="4559:5269" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="4600:5263" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="5445:6278" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="6284:6710" ph="///Applies a key-generating function to each element of a list and returns a list yielding unique ... " />
+            <marker date="1543931468433" expanded="true" signature="6915:7116" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="7122:7487" ph="///Builds a new collection whose elements are the results of applying the given function ... " />
+            <marker date="1543931468433" expanded="true" signature="7678:7740" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="7746:8217" ph="///Builds a new collection whose elements are the results of applying the given function ... " />
+            <marker date="1543931468433" expanded="true" signature="8433:8496" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="8502:8771" ph="///Returns a new list whose elements are the corresponding elements ... " />
+            <marker date="1543931468433" expanded="true" signature="8885:8933" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="8939:9495" ph="///Combines map and fold. Builds a new list whose elements are the results of applying the given function ... " />
+            <marker date="1543931468433" expanded="true" signature="9769:9850" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="10074:10794" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="10112:10770" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="10800:11360" ph="///Combines map and foldBack. Builds a new list whose elements are the results of applying the given function ... " />
+            <marker date="1543931468433" expanded="true" signature="11642:12411" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="11851:12160" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="12417:12644" ph="///Applies the given function to each element of the collection. ... " />
+            <marker date="1543931468433" expanded="true" signature="12812:12858" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="12864:13204" ph="///Returns a list that contains no duplicate entries according to generic hash and ... " />
+            <marker date="1543931468433" expanded="true" signature="13308:13431" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="13437:13926" ph="///Returns a list that contains no duplicate entries according to the ... " />
+            <marker date="1543931468433" expanded="true" signature="14122:14268" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="14274:14449" ph="///Builds a list from the given array. ... " />
+            <marker date="1543931468433" expanded="true" signature="14542:14591" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="14597:14781" ph="///Builds an array from the given list. ... " />
+            <marker date="1543931468433" expanded="true" signature="14873:14921" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="15095:15147" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="15153:15417" ph="///Returns the first element of the list. ... " />
+            <marker date="1543931468433" expanded="true" signature="15501:15681" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="15687:15910" ph="///Returns the first element of the list, or ... " />
+            <marker date="1543931468433" expanded="true" signature="16014:16140" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="16146:16434" ph="///Returns the list after removing the first element. ... " />
+            <marker date="1543931468433" expanded="true" signature="16530:16710" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="16716:16907" ph="///Returns true if the list contains no elements, false otherwise. ... " />
+            <marker date="1543931468433" expanded="true" signature="17000:17044" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="17050:17344" ph="///Returns a new list that contains the elements of the first list ... " />
+            <marker date="1543931468433" expanded="true" signature="17516:17579" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="17585:17977" ph="///Indexes into the list. The first element has index 0. ... " />
+            <marker date="1543931468433" expanded="true" signature="18122:18671" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="18160:18552" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="18280:18514" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="18677:19019" ph="///Tries to find the nth element in the list. ... " />
+            <marker date="1543931468433" expanded="true" signature="19184:19679" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="19222:19636" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="19342:19598" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="19685:20077" ph="///Indexes into the list. The first element has index 0. ... " />
+            <marker date="1543931468433" expanded="true" signature="20259:20317" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="20323:20755" ph="///Applies the given function to each element of the list. Returns ... " />
+            <marker date="1543931468433" expanded="true" signature="20966:21031" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="21037:21429" ph="///Splits a list into two lists, at the given index. ... " />
+            <marker date="1543931468433" expanded="true" signature="21614:21669" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="21675:22378" ph="///Returns the first N elements of the list. ... " />
+            <marker date="1543931468433" expanded="true" signature="22535:22587" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="22593:22973" ph="///Returns a list that contains all elements of the original list while the ... " />
+            <marker date="1543931468433" expanded="true" signature="23160:23221" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="23227:23548" ph="///Applies the given function to each element of the collection. The integer passed to the ... " />
+            <marker date="1543931468433" expanded="true" signature="23741:23788" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="23794:24102" ph="///Creates a list by calling the given generator on each index. ... " />
+            <marker date="1543931468433" expanded="true" signature="24278:24338" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="24473:24658" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="24523:24634" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="24664:24922" ph="///Creates a list by replicating the given initial value. ... " />
+            <marker date="1543931468433" expanded="true" signature="25080:25318" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="25464:26340" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="25503:26180" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="25587:25737" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="26346:26699" ph="///Applies the given function to two collections simultaneously. The ... " />
+            <marker date="1543931468433" expanded="true" signature="26918:27050" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="27208:28134" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="27247:27974" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="27331:27481" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="28140:28592" ph="///Applies the given function to two collections simultaneously. The ... " />
+            <marker date="1543931468433" expanded="true" signature="28836:28976" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="28982:29511" ph="///Builds a new collection whose elements are the results of applying the given function ... " />
+            <marker date="1543931468433" expanded="true" signature="29798:29885" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="29891:30287" ph="///Like mapi, but mapping corresponding elements from two lists of equal length. ... " />
+            <marker date="1543931468433" expanded="true" signature="30554:30631" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="30637:31098" ph="///Builds a new collection whose elements are the results of applying the given function ... " />
+            <marker date="1543931468433" expanded="true" signature="31340:31416" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="31422:32164" ph="///Applies a function to each element of the collection, threading an accumulator argument ... " />
+            <marker date="1543931468433" expanded="true" signature="32378:32874" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="32720:32847" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="32880:33180" ph="///Returns a list of each element in the input list and its predecessor, with the ... " />
+            <marker date="1543931468433" expanded="true" signature="33294:33343" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="33349:34186" ph="///Apply a function to each element of the collection, threading an accumulator argument ... " />
+            <marker date="1543931468433" expanded="true" signature="34367:34643" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="34649:35291" ph="///Applies a function to each element of the collection, threading an accumulator argument ... " />
+            <marker date="1543931468433" expanded="true" signature="35517:35585" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="35591:35765" ph="///Returns a list that contains one item only. ... " />
+            <marker date="1543931468433" expanded="true" signature="35860:35939" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="36117:37028" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="36156:36855" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="37034:37705" ph="///Applies a function to corresponding elements of two collections, threading an accumulator argument ... " />
+            <marker date="1543931468433" expanded="true" signature="37970:38134" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="38317:38571" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="38410:38549" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="38577:39175" ph="///Applies a function to each element of the collection, starting from the end, threading an accumulator argument ... " />
+            <marker date="1543931468433" expanded="true" signature="39397:40790" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="39654:40716" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="39746:40587" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="39839:40401" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="39938:40211" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="40796:41477" ph="///Applies a function to each element of the collection, starting from the end, threading an accumulator argument ... " />
+            <marker date="1543931468433" expanded="true" signature="41666:42093" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="42319:42745" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="42521:42720" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="42751:43096" ph="///Like &lt;c&gt;foldBack&lt;/c&gt;, but returns both the intermediary and final results ... " />
+            <marker date="1543931468433" expanded="true" signature="43330:44027" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="43523:43740" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="44229:44997" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="44541:44708" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="44818:44975" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="45291:47773" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="45458:47538" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="45553:47208" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="45653:46618" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="45775:46606" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="45888:46592" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="46006:46576" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="46124:46558" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="46657:47198" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="46764:47186" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="46876:47172" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="47245:47530" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="47346:47520" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="47779:48446" ph="///Applies a function to corresponding elements of two collections, threading an accumulator argument ... " />
+            <marker date="1543931468433" expanded="true" signature="48719:49501" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="48755:49326" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="49683:50560" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="49722:50388" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="50566:51505" ph="///Tests if all corresponding elements of the collection satisfy the given predicate pairwise. ... " />
+            <marker date="1543931468433" expanded="true" signature="51728:51932" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="51938:52473" ph="///Tests if all elements of the collection satisfy the given predicate. ... " />
+            <marker date="1543931468433" expanded="true" signature="52645:52703" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="52709:53232" ph="///Tests if any element of the list satisfies the given predicate. ... " />
+            <marker date="1543931468433" expanded="true" signature="53404:53462" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="53468:53767" ph="///Tests if the list contains the specified element. ... " />
+            <marker date="1543931468433" expanded="true" signature="53923:54269" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="54451:55353" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="54490:55116" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="54573:55071" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="55359:56286" ph="///Tests if any pair of corresponding elements of the lists satisfies the given predicate. ... " />
+            <marker date="1543931468433" expanded="true" signature="56509:56714" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="56720:57259" ph="///Returns the first element for which the given function returns True. ... " />
+            <marker date="1543931468433" expanded="true" signature="57424:57867" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="57462:57763" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="57873:58279" ph="///Returns the first element for which the given function returns True. ... " />
+            <marker date="1543931468433" expanded="true" signature="58464:58868" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="58502:58825" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="58874:59411" ph="///Returns the last element for which the given function returns True. ... " />
+            <marker date="1543931468433" expanded="true" signature="59584:59697" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="59703:60107" ph="///Returns the last element for which the given function returns True. ... " />
+            <marker date="1543931468433" expanded="true" signature="60300:60416" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="60422:60857" ph="///Applies the given function to successive elements, returning &lt;c&gt;Some(x)&lt;/c&gt; the first ... " />
+            <marker date="1543931468433" expanded="true" signature="61072:61546" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="61110:61497" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="61552:62122" ph="///Applies the given function to successive elements, returning the first ... " />
+            <marker date="1543931468433" expanded="true" signature="62317:62852" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="62355:62748" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="62858:63228" ph="///Returns a new collection containing only the elements of the collection ... " />
+            <marker date="1543931468433" expanded="true" signature="63409:63467" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="63473:64196" ph="///Returns a new list with the distinct elements of the input list which do not appear in the itemsToExclude sequ ... " />
+            <marker date="1543931468433" expanded="true" signature="64377:64741" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="64747:65105" ph="///Returns a new list containing only the elements of the list ... " />
+            <marker date="1543931468433" expanded="true" signature="65284:65342" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="65524:65737" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="65917:66416" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="66422:66835" ph="///Applies a key-generating function to each element of a list and yields a list of ... " />
+            <marker date="1543931468433" expanded="true" signature="67050:67251" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="67257:67806" ph="///Splits the collection into two collections, containing the ... " />
+            <marker date="1543931468433" expanded="true" signature="68015:68076" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="68082:68250" ph="///Splits a list of pairs into two lists. ... " />
+            <marker date="1543931468433" expanded="true" signature="68389:68440" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="68446:68620" ph="///Splits a list of triples into three lists. ... " />
+            <marker date="1543931468433" expanded="true" signature="68785:68841" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="68847:69277" ph="///Returns a list of sliding windows containing elements drawn from the input ... " />
+            <marker date="1543931468433" expanded="true" signature="69459:69520" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="69526:69906" ph="///Divides the input list into chunks of size at most &lt;c&gt;chunkSize&lt;/c&gt;. ... " />
+            <marker date="1543931468433" expanded="true" signature="70093:70156" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="70162:70517" ph="///Splits the input list into at most &lt;c&gt;count&lt;/c&gt; chunks. ... " />
+            <marker date="1543931468433" expanded="true" signature="70696:70753" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="70759:71083" ph="///Combines the two lists into a list of pairs. The two lists must have equal lengths. ... " />
+            <marker date="1543931468433" expanded="true" signature="71268:71325" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="71331:71715" ph="///Combines the three lists into a list of triples. The lists must have equal lengths. ... " />
+            <marker date="1543931468433" expanded="true" signature="71935:72004" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="72101:72486" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="72128:72462" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="72492:72908" ph="///Returns the list after removing the first N elements. ... " />
+            <marker date="1543931468433" expanded="true" signature="73065:73190" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="73196:73551" ph="///Bypasses elements in a list while the given predicate returns True, and then returns ... " />
+            <marker date="1543931468433" expanded="true" signature="73738:74199" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="73776:74174" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="73919:74136" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="74205:74568" ph="///Sorts the given list using the given comparison function. ... " />
+            <marker date="1543931468433" expanded="true" signature="74766:75022" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="75028:75472" ph="///Sorts the given list using keys given by the given projection. Keys are compared using Operators.compare. ... " />
+            <marker date="1543931468433" expanded="true" signature="75660:75922" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="75928:76197" ph="///Sorts the given list using Operators.compare. ... " />
+            <marker date="1543931468433" expanded="true" signature="76293:76535" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="76541:77005" ph="///Sorts the given list in descending order using keys given by the given projection. Keys are compared using Ope ... " />
+            <marker date="1543931468433" expanded="true" signature="77213:77374" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="77380:77669" ph="///Sorts the given list in descending order using Operators.compare. ... " />
+            <marker date="1543931468433" expanded="true" signature="77785:77928" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="77934:78132" ph="///Builds a new list from the given enumerable object. ... " />
+            <marker date="1543931468433" expanded="true" signature="78233:78287" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="78293:78467" ph="///Views the given list as a sequence. ... " />
+            <marker date="1543931468433" expanded="true" signature="78566:78614" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="78723:79208" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="78762:79104" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="79214:79769" ph="///Returns the index of the first element in the list ... " />
+            <marker date="1543931468433" expanded="true" signature="79946:80028" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="80151:80601" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="80190:80556" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="80607:81059" ph="///Returns the index of the first element in the list ... " />
+            <marker date="1543931468433" expanded="true" signature="81256:81338" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="81344:81897" ph="///Returns the index of the last element in the list ... " />
+            <marker date="1543931468433" expanded="true" signature="82082:82200" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="82206:82656" ph="///Returns the index of the last element in the list ... " />
+            <marker date="1543931468433" expanded="true" signature="82861:82982" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="82988:83152" ph="///Returns the sum of the elements in the list. ... " />
+            <marker date="1543931468433" expanded="true" signature="83234:83682" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="83510:83660" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="83688:84015" ph="///Returns the sum of the results generated by applying the function to each element of the list. ... " />
+            <marker date="1543931468433" expanded="true" signature="84201:84704" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="84495:84682" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="84710:85092" ph="///Return the greatest of all elements of the list, compared via Operators.max. ... " />
+            <marker date="1543931468433" expanded="true" signature="85174:85799" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="85570:85775" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="85805:86327" ph="///Returns the greatest of all elements of the list, compared via Operators.max on the function result. ... " />
+            <marker date="1543931468433" expanded="true" signature="86507:87306" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="86975:87282" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="87180:87245" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="87312:87691" ph="///Returns the lowest of all elements of the list, compared via Operators.min. ... " />
+            <marker date="1543931468433" expanded="true" signature="87773:88395" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="88169:88371" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="88401:88914" ph="///Returns the lowest of all elements of the list, compared via Operators.min on the function result ... " />
+            <marker date="1543931468433" expanded="true" signature="89094:89890" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="89562:89866" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="89764:89829" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="89896:90253" ph="///Returns the average of the elements in the list. ... " />
+            <marker date="1543931468433" expanded="true" signature="90343:90912" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="90682:90845" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="90918:91441" ph="///Returns the average of the elements generated by applying the function to each element of the list. ... " />
+            <marker date="1543931468433" expanded="true" signature="91635:92259" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="91986:92186" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="92265:92647" ph="///For each element of the list, applies the given function. Concatenates all the results and return the combined ... " />
+            <marker date="1543931468433" expanded="true" signature="92858:92924" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="92930:93216" ph="///Returns a new list that contains all pairings of elements from the first and second lists. ... " />
+            <marker date="1543931468433" expanded="true" signature="93411:93473" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="93479:94355" ph="///Compares two lists using the given comparison function, element by element. ... " />
+            <marker date="1543931468433" expanded="true" signature="94574:94782" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="94788:95211" ph="///Returns a list with all elements permuted according to the ... " />
+            <marker date="1543931468433" expanded="true" signature="95394:95522" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="95528:95818" ph="///Returns the only element of the list. ... " />
+            <marker date="1543931468433" expanded="true" signature="95914:96282" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="96288:96692" ph="///Returns the transpose of the given sequence of lists. ... " />
+            <marker date="1543931468433" expanded="true" signature="96824:96999" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="97005:97240" ph="///Returns at most N elements in a new list. ... " />
+            <marker date="1543931468433" expanded="true" signature="97405:97461" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="97467:97933" ph="///Returns a list that contains the elements generated by the given computation. ... " />
+            <marker date="1543931468433" expanded="true" signature="98147:98214" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="98323:98531" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="98432:98448" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="98491:98525" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="98703:98982" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="98810:98826" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="98935:98976" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="99063:99418" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="99212:99228" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="99328:99412" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="99541:100402" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="99839:99891" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="99950:100396" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="100054:100366" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="100496:100797" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="100646:100692" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="100736:100791" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="100907:101116" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="101017:101033" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="101076:101110" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="101289:101741" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="101461:101503" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="101608:101735" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="101914:102194" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="102022:102038" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="102147:102188" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="102324:102764" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="102510:102564" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="102608:102758" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="102886:103159" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="102994:103010" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="103054:103153" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="103296:104278" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="103495:103545" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="103621:104272" ph="{...}" />
+            <marker date="1543931468433" expanded="true" signature="103720:104220" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day04/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="307" column="30" selection-start-line="307" selection-start-column="25" selection-end-line="307" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day04/Program.fs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="87" selection-start-line="87" selection-end-line="87" />
+          <folding>
+            <marker date="1543994346789" expanded="true" signature="0:3404" ph="open System ..." />
+            <marker date="1543994346789" expanded="true" signature="107:219" ph=" = seq { ..." />
+            <marker date="1543994346789" expanded="true" signature="161:217" ph="while not sr.EndOfStream do ..." />
+            <marker date="1543994346789" expanded="true" signature="248:355" ph=" = ..." />
+            <marker date="1543994346789" expanded="true" signature="322:355" ph=" then Some(intvalue) ..." />
+            <marker date="1543994346789" expanded="true" signature="387:511" ph=" = ..." />
+            <marker date="1543994346789" expanded="true" signature="440:511" ph=" ..." />
+            <marker date="1543994346789" expanded="true" signature="527:1111" ph=" = ..." />
+            <marker date="1543994346789" expanded="true" signature="642:1071" ph=" = ..." />
+            <marker date="1543994346789" expanded="true" signature="673:1071" ph=" ..." />
+            <marker date="1543994346789" expanded="true" signature="703:1040" ph=" -&gt; match currentLine with ..." />
+            <marker date="1543994346789" expanded="true" signature="874:1040" ph=" -&gt; ..." />
+            <marker date="1543994346789" expanded="true" signature="1130:1267" ph=" = ..." />
+            <marker date="1543994346789" expanded="true" signature="1292:2455" ph=" = ..." />
+            <marker date="1543994346789" expanded="true" signature="1471:2336" ph="  = ..." />
+            <marker date="1543994346789" expanded="true" signature="1504:2336" ph=" ..." />
+            <marker date="1543994346789" expanded="true" signature="1530:2260" ph=" -&gt;  let dt, s = current ..." />
+            <marker date="1543994346789" expanded="true" signature="1597:2260" ph=" ..." />
+            <marker date="1543994346789" expanded="true" signature="1677:2032" ph=" -&gt; ..." />
+            <marker date="1543994346789" expanded="true" signature="2500:3081" ph=" = ..." />
+            <marker date="1543994346789" expanded="true" signature="2558:2672" ph=" = ..." />
+            <marker date="1543994346789" expanded="true" signature="2703:2795" ph=" = ..." />
+            <marker date="1543994346789" expanded="true" signature="2828:3050" ph=" = ..." />
+            <marker date="1543994346789" expanded="true" signature="2840:2986" ph="   for i in 0..59 do ..." />
+            <marker date="1543994346789" expanded="true" signature="2873:2986" ph="for s, e in napTimes.[laziestId] do ..." />
+            <marker date="1543994346789" expanded="true" signature="2957:2986" ph=" ..." />
+            <marker date="1543994346789" expanded="true" signature="3128:3372" ph=" = ..." />
+            <marker date="1543994346789" expanded="true" signature="3172:3372" ph="for i in 0..59 do ..." />
+            <marker date="1543994346789" expanded="true" signature="3194:3247" ph="for guard, naps in napTimes do ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
