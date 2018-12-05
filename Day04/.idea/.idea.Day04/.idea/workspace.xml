@@ -2,21 +2,72 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6b53865-1528-49ec-8f48-b3ad29b444b4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Day03/.idea/.idea.Day03/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Day04/.idea/contentModel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Day04/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Day04/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Day04/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Day04/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Day04/riderModule.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day04/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day05/.idea/.idea.day05/.idea/contentModel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day05/.idea/.idea.day05/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day05/day05/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Day01/.idea/.idea.Day01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Day01/.idea/.idea.Day01/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore.swp" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore.swp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day01/.idea/.idea.Day01/.idea/contentModel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day01/.idea/.idea.Day01/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day01/.idea/.idea.Day01/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day01/.idea/.idea.Day01/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day01/.idea/.idea.Day01/riderModule.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day01/Day01/bin/Debug/netcoreapp2.1/Day01.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day01/Day01/bin/Debug/netcoreapp2.1/Day01.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day01/Day01/bin/Debug/netcoreapp2.1/Day01.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day01/Day01/bin/Debug/netcoreapp2.1/Day01.runtimeconfig.dev.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day01/Day01/bin/Debug/netcoreapp2.1/Day01.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day01/Day01/obj/Debug/netcoreapp2.1/Day01.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day01/Day01/obj/Debug/netcoreapp2.1/Day01.fsproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day01/Day01/obj/Debug/netcoreapp2.1/Day01.fsprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Day01/Day01/obj/Debug/netcoreapp2.1/Day01.fsprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day01/Day01/obj/Debug/netcoreapp2.1/Day01.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day02/.idea/.idea.Day02/.idea/contentModel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day02/.idea/.idea.Day02/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day02/.idea/.idea.Day02/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Day02/.idea/.idea.Day02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Day02/.idea/.idea.Day02/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day02/.idea/.idea.Day02/riderModule.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day02/Day02/bin/Debug/netcoreapp2.1/Day02.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day02/Day02/bin/Debug/netcoreapp2.1/Day02.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day02/Day02/bin/Debug/netcoreapp2.1/Day02.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day02/Day02/bin/Debug/netcoreapp2.1/Day02.runtimeconfig.dev.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day02/Day02/bin/Debug/netcoreapp2.1/Day02.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day02/Day02/obj/Debug/netcoreapp2.1/Day02.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day02/Day02/obj/Debug/netcoreapp2.1/Day02.fsproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day02/Day02/obj/Debug/netcoreapp2.1/Day02.fsprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day02/Day02/obj/Debug/netcoreapp2.1/Day02.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day03/.idea/.idea.Day03/.idea/contentModel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day03/.idea/.idea.Day03/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day03/.idea/.idea.Day03/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day03/.idea/.idea.Day03/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Day03/.idea/.idea.Day03/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Day03/.idea/.idea.Day03/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Day03/Day03/Program.fs" beforeDir="false" afterPath="$PROJECT_DIR$/../Day03/Day03/Program.fs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day03/.idea/.idea.Day03/riderModule.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day03/Day03/bin/Debug/netcoreapp2.1/Day03.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day03/Day03/bin/Debug/netcoreapp2.1/Day03.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day03/Day03/bin/Debug/netcoreapp2.1/Day03.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day03/Day03/bin/Debug/netcoreapp2.1/Day03.runtimeconfig.dev.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day03/Day03/bin/Debug/netcoreapp2.1/Day03.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day03/Day03/obj/Debug/netcoreapp2.1/Day03.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day03/Day03/obj/Debug/netcoreapp2.1/Day03.fsproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day03/Day03/obj/Debug/netcoreapp2.1/Day03.fsprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day03/Day03/obj/Debug/netcoreapp2.1/Day03.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Day04/.idea/contentModel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Day04/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Day04/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Day04/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Day04/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Day04/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Day04/riderModule.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day04/bin/Debug/netcoreapp2.1/Day04.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day04/bin/Debug/netcoreapp2.1/Day04.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day04/bin/Debug/netcoreapp2.1/Day04.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day04/bin/Debug/netcoreapp2.1/Day04.runtimeconfig.dev.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day04/bin/Debug/netcoreapp2.1/Day04.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day04/obj/Debug/netcoreapp2.1/Day04.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day04/obj/Debug/netcoreapp2.1/Day04.fsproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day04/obj/Debug/netcoreapp2.1/Day04.fsprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day04/obj/Debug/netcoreapp2.1/Day04.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day05/.idea/.idea.day05/.idea/contentModel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day05/.idea/.idea.day05/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day05/.idea/.idea.day05/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day05/.idea/.idea.day05/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day05/.idea/.idea.day05/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day05/.idea/.idea.day05/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day05/.idea/.idea.day05/riderModule.iml" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,6 +79,7 @@
     <session id="-833925494">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -63,8 +115,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Day04/Program.fs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="87" selection-start-line="87" selection-end-line="87" />
+            <state relative-caret-position="60">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
               <folding>
                 <marker date="1543994346789" expanded="true" signature="0:3404" ph="open System ..." />
                 <marker date="1543994346789" expanded="true" signature="107:219" ph=" = seq { ..." />
@@ -575,12 +627,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1543917616426</updated>
-      <workItem from="1543917618697" duration="19684000" />
+      <workItem from="1543917618697" duration="20317000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19684000" />
+    <option name="totallyTimeSpent" value="20317000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -593,7 +645,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1293" height="693" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13360325" />
@@ -609,7 +660,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3291815" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.24733096" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.24733096" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -1009,8 +1060,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Day04/Program.fs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="87" selection-start-line="87" selection-end-line="87" />
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
           <folding>
             <marker date="1543994346789" expanded="true" signature="0:3404" ph="open System ..." />
             <marker date="1543994346789" expanded="true" signature="107:219" ph=" = seq { ..." />
