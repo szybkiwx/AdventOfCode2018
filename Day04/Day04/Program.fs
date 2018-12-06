@@ -38,8 +38,6 @@ let makePairs lst =
         |> List.filter fst
         |> List.map snd
 
-
-
 let getNapTimes input =
     let sorted = List.sortBy (fun (dt, s) -> dt ) input
 
@@ -78,15 +76,18 @@ let phase1 (input:(DateTime * string) list) =
         |> List.maxBy snd
     mostLazyMinute * laziestId
 
-
-
 let phase2 (input:(DateTime * string) list) =
     let napTimes = getNapTimes input
-    for i in 0..59 do
-    for guard, naps in napTimes do
-    for nap in naps do
+    let minutes = [ for i in 0..59 do
+                    for (KeyValue(guard,naps)) in napTimes do
+                    for s, e in naps do
+                        if i >= s.Minute && i < e.Minute then
+                            yield i, guard ]
+    let cnt = minutes |> List.countBy (fun (m, g) -> m)
+    let maxMinute, _ = minutes |> List.countBy (fun (m, g) -> m)  |> List.maxBy snd
 
-
+    let x = minutes |> List.filter (fun (m, g) -> m = maxMinute) |> List.countBy (fun(m, g) -> g) |> List.maxBy snd
+    maxMinute //* guard
 [<EntryPoint>]
 let main argv =
     let input =  readInput

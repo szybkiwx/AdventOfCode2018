@@ -4,7 +4,5 @@ C:\Users\cy264\RiderProjects\AoC2018\Day01\Day01\bin\Debug\netcoreapp2.1\Day01.r
 C:\Users\cy264\RiderProjects\AoC2018\Day01\Day01\bin\Debug\netcoreapp2.1\Day01.dll
 C:\Users\cy264\RiderProjects\AoC2018\Day01\Day01\bin\Debug\netcoreapp2.1\Day01.pdb
 C:\Users\cy264\RiderProjects\AoC2018\Day01\Day01\obj\Debug\netcoreapp2.1\Day01.fsprojAssemblyReference.cache
-C:\Users\cy264\RiderProjects\AoC2018\Day01\Day01\obj\Debug\netcoreapp2.1\Day01.AssemblyInfoInputs.cache
-C:\Users\cy264\RiderProjects\AoC2018\Day01\Day01\obj\Debug\netcoreapp2.1\Day01.AssemblyInfo.fs
 C:\Users\cy264\RiderProjects\AoC2018\Day01\Day01\obj\Debug\netcoreapp2.1\Day01.dll
 C:\Users\cy264\RiderProjects\AoC2018\Day01\Day01\obj\Debug\netcoreapp2.1\Day01.pdb

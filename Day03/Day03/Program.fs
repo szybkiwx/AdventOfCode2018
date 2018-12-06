@@ -8,8 +8,6 @@ let readLines (filePath:string) = seq {
         yield sr.ReadLine ()
 }
 
-
-
 type Claim = {
     Id: int;
     Top: int;
