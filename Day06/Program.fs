@@ -7,7 +7,6 @@ let readLines (filePath:string) = seq {
         yield sr.ReadLine ()
 }
 
-
 let findBoundingBox input =
     (input |> List.map fst |> List.min, input |> List.map snd |> List.min),
     (input |> List.map fst |> List.max, input |> List.map snd |> List.max)
@@ -25,20 +24,37 @@ let phase1 (input:seq<int*int>) =
 
 
     grid |> List.map (fun p -> input
-                                    |> Seq.map(fun c -> c, calcManhattan p c)
-                                    |> Seq.groupBy snd
-                                    |> Seq.sortBy fst
-                                    |> Seq.head)
+                               |> Seq.map(fun c -> c, calcManhattan p c)
+                               |> Seq.groupBy snd
+                               |> Seq.sortBy fst
+                               |> Seq.head)
          |> List.filter (fun (c, dists) -> Seq.length dists = 1)
          |> List.map (fun (c, dists) -> Seq.head dists |> fst)
          |> List.filter (fun (x,y) -> x > minx || x < maxx || y > minx || y <maxy)
          |> List.countBy id
          |> List.maxBy snd
+         |> snd
+
+
+let phase2 (input:seq<int*int>) =
+    let ((minx, miny), (maxx, maxy)) = findBoundingBox (input |> List.ofSeq)
+    let grid = [ for x in minx..maxx do
+                 for y in miny..maxy do
+                    yield x,y ]
+
+
+    grid |> List.map (fun p -> input
+                                        |> Seq.map(fun c -> calcManhattan p c)
+                                        |> Seq.sum)
+         |> List.filter(fun x -> x < 10000)
+         |> List.length
 
 
 [<EntryPoint>]
 let main argv =
     let data = readLines "input.txt" |> Seq.map (fun s -> s.Split [|','|]) |> Seq.map (fun arr -> int arr.[0], int arr.[1])
     let result1 = phase1 data
-    printfn "%A" argv
+    let result2 = phase2 data
+    printfn "%d" result1
+    printfn "%d" result2
     0 // return an integer exit code
