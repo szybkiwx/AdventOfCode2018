@@ -10,15 +10,11 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Common\Common.fsproj" />
-    </ItemGroup>
-
-    <ItemGroup>
       <Content Include="input.txt" />
     </ItemGroup>
 
     <ItemGroup>
-      <PackageReference Include="FSharpx.Collections" Version="1.17.0" />
+      <ProjectReference Include="..\Common\Common.fsproj" />
     </ItemGroup>
 
 </Project>

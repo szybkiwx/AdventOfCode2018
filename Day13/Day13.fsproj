@@ -17,8 +17,4 @@
       <Content Include="input.txt" />
     </ItemGroup>
 
-    <ItemGroup>
-      <PackageReference Include="FSharpx.Collections" Version="1.17.0" />
-    </ItemGroup>
-
 </Project>
