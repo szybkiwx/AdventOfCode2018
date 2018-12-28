@@ -26,29 +26,48 @@ and processNode (input: int list) =
 
 
 let rec processChildren2 childrenCount (input:int[]) =
-    let rec collectChildrenSums (c:int) position sums =
-        if c = 0
-        then position, sums |> List.rev |> Array.ofList
-        else
-             let p, sum = processNode2 (input.[position..] |> List.ofArray)
-             collectChildrenSums (c - 1) (position + p) (sum::sums)
+    let mutable pos = 0
+    let sums = [for i in 0..childrenCount-1 do
+                    let p, c = processNode2 (input.[pos..] |> List.ofArray)
+                    pos <- pos + p
+                    yield c]
+    pos, sums
 
-    collectChildrenSums childrenCount 0 []
-
+(*
 and processNode2 (input: int list) =
     match input with
-    |   childrenCount::metadataCount::rest ->   let restArray = rest |> Array.ofList
-                                                if childrenCount = 0 then
-                                                    let metadataSum = restArray.[0.. metadataCount - 1] |> Array.sum
-                                                    2 + metadataCount, metadataSum
-                                                else
-                                                    let endPos, sums = processChildren2 childrenCount ( rest |> Array.ofList )
-                                                    let lastIndex = restArray.Length - metadataCount
-                                                    let metaIndexes = restArray.[lastIndex..]
-                                                    let filteredIndexes = metaIndexes
-                                                                            |> Array.filter (fun x -> x > 0 && x <= sums.Length)
-                                                    let metaSum = filteredIndexes  |> Array.sumBy (fun x -> sums.[x - 1])
-                                                    2 + endPos + metadataCount, metaSum
+    |   childrenCount::metadataCount::rest ->
+            let restArray = rest |> Array.ofList
+            if childrenCount = 0 then
+                let metadataSum = restArray.[0 .. metadataCount - 1] |> Array.sum
+                2 + metadataCount, metadataSum
+            else
+                let childEndPos, sums = processChildren2 childrenCount ( rest |> Array.ofList )
+                let endPos = childEndPos + metadataCount
+                let metaIndexes = restArray.[childEndPos..endPos - 1]
+                let filteredIndexes = metaIndexes |> Array.filter (fun x -> x > 0 && x <= sums.Length)
+                let metaSum = filteredIndexes  |> Array.sumBy (fun x -> sums.[x - 1])
+                endPos + metadataCount + 1, metaSum
+*)
+and processNode2 (input: int list) =
+    match input with
+    |   childrenCount::metadataCount::rest ->
+            if childrenCount = 0 then
+                let restArray = rest |> Array.ofList
+                let metadataSum = restArray.[0 .. metadataCount - 1] |> Array.sum
+                2 + metadataCount, metadataSum
+            else
+                let childEndPos, childSums = processChildren2 childrenCount ( rest |> Array.ofList )
+                let endPos = childEndPos + metadataCount
+                let restArray = rest |> Array.ofList
+                let metadata = restArray.[childEndPos..endPos - 1]
+                let childEndSum = metadata
+                                        |> Array.map(fun x -> x - 1)
+                                        |> Array.filter(fun x -> x >= 0 && x < childSums.Length)
+                                        |> Array.map(fun x -> childSums.[x])
+                                        |> Array.sum
+                2 + endPos, childEndSum
+
 let phase1 (input:int[]) =
     processNode (input |> Array.toList) |> snd
 
@@ -61,7 +80,7 @@ let main argv =
 
     //let result1 = phase1 [|2; 3; 0; 3; 10; 11; 12; 1; 1; 0; 1; 99; 2; 1; 1; 2|]
     //let result1 = phase1 data
-    //let result2 = phase2 [|2; 3; 0; 3; 10; 11; 12; 1; 1; 0; 1; 99; 2; 1; 1; 2|]
+    let result2 = phase2 [|2; 3; 0; 3; 10; 11; 12; 1; 1; 0; 1; 99; 2; 1; 1; 2|]
     let result22 = phase2  data
     printfn "Hello World from F#!"
     0 // return an integer exit code
