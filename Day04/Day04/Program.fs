@@ -83,14 +83,23 @@ let phase2 (input:(DateTime * string) list) =
                     for s, e in naps do
                         if i >= s.Minute && i < e.Minute then
                             yield i, guard ]
-    let cnt = minutes |> List.countBy (fun (m, g) -> m)
-    let maxMinute, _ = minutes |> List.countBy (fun (m, g) -> m)  |> List.maxBy snd
 
-    let x = minutes |> List.filter (fun (m, g) -> m = maxMinute) |> List.countBy (fun(m, g) -> g) |> List.maxBy snd
-    maxMinute //* guard
+
+    let mins = minutes |> List.groupBy (fun (minute, guardId) -> minute) |> List.map (fun (minute, lst) -> lst |> List.map snd)
+    let guardMinutes =  mins |> List.map (fun lst -> lst |> List.groupBy id |> List.map (fun (guardId, guardsIds) -> guardId, guardsIds.Length ))
+    let x = guardMinutes |> List.mapi(fun i lst -> i, lst |> List.maxBy (fun (g, m) -> m)) |> List.maxBy (fun (f, (g, m)) -> m)
+    let minute = x |> fst
+    let guardId = x |> snd |> fst
+    minute * guardId
+    //let cnt = minutes |> List.countBy (fun (m, g) -> m)
+    //let maxMinute, _ = minutes |> List.countBy (fun (m, g) -> m)  |> List.maxBy snd
+
+    //let x = minutes |> List.filter (fun (m, g) -> m = maxMinute) |> List.countBy (fun(m, g) -> g) |> List.maxBy snd
+    //maxMinute //* guard
+
 [<EntryPoint>]
 let main argv =
     let input =  readInput
-    //let rslt = phase1 input
+    let rslt = phase1 input
     let rslt2 = phase2 input
     0 // return an integer exit code
