@@ -1,120 +1,118 @@
 ﻿open System
+open System
 open System.Numerics
 open Common
-let debug (number:BigInteger) range =
-    let rec loop (n:BigInteger) (result:char list) i =
-        if i > range then
-            result |>  String.Concat
-        else
-            let lastBit =  (n &&& (bigint 1))
-            loop (n >>> 1) ((if lastBit.IsOne then '#' else '.')::result) (i + 1)
+open System.IO
 
-    loop number [] 1
+let debug pots = pots |> Array.map(fun x -> if x = 1 then '#' else '.') |> String.Concat
 
 let parseState str =
     str
-    |> Seq.map(fun x -> bigint (if x = '#' then 1 else 0))
-    |> Seq.fold(fun acc x -> (acc <<< 1) + x) (bigint 0)
+    |> Seq.map(fun x -> if x = '#' then 1 else 0)
+    |> Seq.toArray
 
 
 let parseGeneration str =
     match str with
     | ParseRegex "([#.]{5}) => ([#.])" [stateStr; newStateStr] ->  parseState stateStr, if newStateStr = "#" then 1 else 0
 
+let readInput =
+    let input = readLines "input.txt"
+    input |> Seq.map parseGeneration |> Seq.toList
 
-let findRule (input:BigInteger) (allRules:(BigInteger*int) []) position range =
-    let shift = input >>> (range - position - 5)
-    let shiftedInput = shift &&& (bigint 0x1F)
-    let potentialRules = [for rule in allRules do
-                            if (shiftedInput ^^^ (fst rule) ).IsZero
-                                then yield snd rule ]
-    potentialRules  |> List.tryHead
+let cmp (arr1:int[]) (arr2:int[]) =
+    [for i in 0 .. arr1.Length - 1 do
+        yield arr1.[i] = arr2.[i] ] |> List.forall id
 
-let processGeneration (prevState:BigInteger) rules range =
-    let nextGen = [ for i in 0..range-5-1 do
-                    let ruleOption = findRule prevState rules i range
-                    yield  match ruleOption with
-                           | Some x -> x
-                           | None -> 0 ]
+let findState (input:(int[]*int) list) targetState =
+    [for (state,outcome) in input do
+        if cmp state targetState then
+            yield outcome
+    ] |> List.tryHead
 
-    nextGen |> List.fold (fun acc x -> (acc <<< 1) + (bigint x)) (bigint 0) <<< 3
+let sumUpPots (pots:int[]) =
+    [for i in 0.. pots.Length - 5 - 1 do
+         if pots.[i] = 1 then
+            yield i - 5
+     ] |> List.sum
 
-let phase1 (initialState:BigInteger) rules range =
-    let rec loop i prevState prevRange =
-        if i = 0 then
-            prevState, prevRange
+
+let phase1 initialState input =
+
+    let initPots = [|[| 0;0;0;0;0 |]; initialState ; [| 0;0;0;0;0 |] |] |> Array.concat
+
+    let rec loop (pots:int[]) cnt =
+        printfn "%s" (debug pots)
+        if cnt = 20 then
+           sumUpPots pots
         else
-            let nextState = processGeneration prevState rules prevRange
-            printfn "%s" (debug nextState prevRange)
-            if ( ( nextState >>> 5 ) ^^^ bigint 1).IsZero then
-                loop (i - 1) nextState prevRange
-            else
-                loop (i - 1) (nextState<<<1) (prevRange + 1)
+            let len = pots.Length
+            let newPots = Array.create len 0
+            for i in 0.. (len - 5 - 1) do
+                let tried = pots.[i..(i + 5 - 1)]
+                let outcomeOption = findState input tried
+                let option = match outcomeOption with
+                             | Some x -> x
+                             | None -> 0
+                Array.set newPots (i + 2) option
+            let nextPots = [|newPots; [|0|]|] |> Array.concat
+            loop nextPots (cnt + 1)
 
+    loop initPots 0
 
-    let lastGen, newRange = loop 20 initialState range
+let cmp2 (arr1:int[]) (arr2:int[]) =
+    let nArr2 = if arr1.Length > arr2.Length then [|arr2; Array.create (arr1.Length - arr2.Length) 0|] |> Array.concat else arr2
+    let nArr1 = if arr1.Length < arr2.Length then [|arr1; Array.create (arr2.Length - arr1.Length) 0|] |> Array.concat else arr1
+    [for i in 0..nArr1.Length - 1 do yield nArr1.[i] = nArr2.[i] ] |> List.forall id
 
-    let rec loop (n:BigInteger) (result:char list) i =
-        if i > newRange then
-            result
+let findInHistory (history:int[] list) (pots:int[]) =
+    let rec loop entries i =
+        match entries with
+        | entry::rest -> if cmp2 entry pots then
+                            i
+                         else
+                            loop rest (i + 1)
+        | [] -> -1
+
+    loop (history |> List.rev) 0
+
+let phase2 initialState input =
+    let initPots = [|[| 0;0;0;0;0 |]; initialState ; [| 0;0;0;0;0 |] |] |> Array.concat
+    let rec loop (pots:int[]) cnt sums (lines:string list) =
+        let len = pots.Length
+        let newPots = Array.create len 0
+        for i in 0.. (len - 5 - 1) do
+            let tried = pots.[i..(i + 5 - 1)]
+            let outcomeOption = findState input tried
+            let option = match outcomeOption with
+                         | Some x -> x
+                         | None -> 0
+            Array.set newPots (i + 2) option
+        let nextPots = [|newPots; [|0|]|] |> Array.concat
+        if cnt = 157 then //magic number found by ibserving the output, from this point pattern started to repeat
+                          //and each step was the same as previous shifted one place to the right
+            sumUpPots nextPots
         else
-            let lastBit = (n &&& (bigint 1))
-            loop (n >>> 1) ((if lastBit.IsOne then '#' else '.')::result) (i + 1)
-    printfn "%s" (debug lastGen newRange)
-
-    let result = loop lastGen [] 1
-
-    let mutable cnt = 0
-    for i in -5..newRange-5-1 do
-        if result.[i + 5] = '#' then
-            cnt <- cnt + i
-    cnt
-
-let countPots (generation:BigInteger) range=
-    let rec loop (n:BigInteger) (result:char list) i =
-        if i > range then
-            result
-        else
-            let lastBit = (n &&& (bigint 1))
-            loop (n >>> 1) ((if lastBit.IsOne then '#' else '.')::result) (i + 1)
-
-    let result = loop generation [] 1
-
-    let mutable cnt = 0
-    for i in -5..range-5-1 do
-        if result.[i + 5] = '#' then
-            cnt <- cnt + i
-    cnt
-
-let phase2 (initialState:BigInteger) rules range =
-    let rec loop i (history:Set<int>) prevState prevRange =
-        let pots = countPots prevState prevRange
-        let nextState = processGeneration prevState rules prevRange
-        if history.Contains pots && i > 100 then
-            i, countPots nextState (prevRange + 1)
-        else
-            let newHistory = history.Add pots
-
-            if ( ( nextState >>> 5 ) ^^^ bigint 1).IsZero then
-                loop (i + 1) newHistory nextState prevRange
-            else
-                loop (i + 1) newHistory (nextState<<<1) (prevRange + 1)
+            let line = sprintf "%d: %s" cnt (debug nextPots)
+            loop nextPots (cnt + 1) sums (line::lines)
 
 
-    loop 1 Set.empty initialState range
+    //let lines = loop initPots 0  []
+    //File.WriteAllLines (@".\output.txt", lines |> List.rev) |> ignore
 
-
+    let sum = loop initPots 0 [] []
+    let iterations = BigInteger.Parse("50000000000") - bigint 158
+    bigint sum + iterations * bigint 42 //the righ shift for each step resulted in sum bigger by 42
 
 [<EntryPoint>]
 let main argv =
-    let input = "#.##.#.##..#.#...##...#......##..#..###..##..#.#.....##..###...#.#..#...######...#####..##....#..###"
-    let data = (parseState input) <<< 5
-    let inputLines = readLines "input.txt" |> Array.ofSeq |> Array.map parseGeneration
-    let initialRange = input.Length + 10
-    //printfn "%s" (debug data initialRange)
+    //let initial = "###..###....####.###...#..#...##...#..#....#.##.##.#..#.#..##.#####..######....#....##..#...#...#.#"
+    let initial = "#.##.#.##..#.#...##...#......##..#..###..##..#.#.....##..###...#.#..#...######...#####..##....#..###"
+    let initialState = initial |> parseState
+    let input = readInput
 
-    //let result = phase1 data inputLines initialRange
-    let _, result2 = phase2 data inputLines initialRange
+    //let result1 = phase1 initialState input
+    let result2 = phase2 initialState input
 
-    printfn "%d" result2
+
     0 // return an integer exit code

@@ -11,6 +11,7 @@
 
     <ItemGroup>
       <Content Include="input.txt" />
+      <Content Include="tsconfig.json" />
     </ItemGroup>
 
     <ItemGroup>
